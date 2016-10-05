@@ -1,0 +1,7 @@
+{
+  "region": "YOUR REGION",
+  "enpoint" :"https://dynamodb.YOUR REGION.amazonaws.com",
+  "tableName" : "MOVIES",
+  "accessKeyId": "YOUR ACCESS KEY ID",
+  "secretAccessKey": "YOUR SECRET ACCESS KEY"
+}

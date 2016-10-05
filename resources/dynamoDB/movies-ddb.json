@@ -1,0 +1,23 @@
+{
+    "AttributeDefinitions": [
+           {
+            "AttributeName": "title", 
+            "AttributeType": "S"
+           },
+           {
+            "AttributeName": "year", 
+            "AttributeType": "N"
+           }
+    ], 
+    "TableName": "MOVIES5", 
+    "KeySchema": [
+        {
+            "AttributeName": "year", 
+            "KeyType": "HASH"
+        },
+        {
+            "AttributeName": "title", 
+            "KeyType": "RANGE"
+        }
+    ] 
+}
