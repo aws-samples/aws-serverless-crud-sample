@@ -3,8 +3,7 @@ README for movies-dynamodb
 This project shows how to use a single lambda function (written in nodejs)
 to respond to multiple API gateway calls to manipulate data in DynamoDB. We show how
 to send the data from the API gateway to a lambda function, which checks to 
-see which API call was invoked by the user. It then performs the intended action
-using CRUD methods in DynamoDB. 
+see which API call was invoked by the user. It then performs the intended action using CRUD methods in DynamoDB. 
 
 				Mobile Backend for Lambda.
 
